@@ -82,13 +82,13 @@ h1 {
         content: ' ';
         position: absolute;
         top: -0em;
-        left: -10;
+        left: -47%;
         width: 5em;
         height: 8em;
         background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/triangle.svg') no-repeat;
         background-size: 5em;
-        width: 300%;
-        z-index: -4;
+        width: 350%;
+        z-index: -9;
         transition: transform 0.3s ease-in-out; /* add this line */
     }
 
