@@ -220,3 +220,12 @@ audio:hover {
   opacity: 1;
   width: 10%; /* the width will be 100% when hovered */
 }/*# sourceMappingURL=main.css.map */
+
+#floating-image {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999; /* Ensures it stays above other content */
+}
+
