@@ -265,3 +265,17 @@ audio:hover {
   opacity: 1;
   width: 10%; /* the width will be 100% when hovered */
 }
+
+.wrapper {
+    /* Your existing styles */
+    z-index: 1000; /* Higher than the floating image */
+    position: relative; /* Make sure it's positioned */
+}
+
+/* Any other elements you want in front */
+.element {
+    /* Your styles */
+    z-index: 1000; /* Adjust as needed */
+    position: relative; /* Position if not already */
+}
+
