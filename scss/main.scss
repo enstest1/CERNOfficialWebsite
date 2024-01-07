@@ -265,3 +265,12 @@ audio:hover {
   opacity: 1;
   width: 10%; /* the width will be 100% when hovered */
 }
+
+#floating-image {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* Lower than the .wrapper and triangle */
+}
+
