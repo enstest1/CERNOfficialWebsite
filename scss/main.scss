@@ -268,7 +268,7 @@ audio:hover {
 
 .wrapper {
     /* Your existing styles */
-    z-index: 1000; /* Higher than the floating image */
+    z-index: 1001; /* Higher than the floating image */
     position: relative; /* Make sure it's positioned */
 }
 
